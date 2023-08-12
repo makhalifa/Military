@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/military/static/css/main.9b38101e.css",
+    "main.js": "/military/static/js/main.f3b772db.js",
+    "static/js/787.1dbcc60a.chunk.js": "/military/static/js/787.1dbcc60a.chunk.js",
+    "static/media/Amiri-Regular.ttf": "/military/static/media/Amiri-Regular.3996383bef365851fe87.ttf",
+    "static/media/Amiri-Bold.ttf": "/military/static/media/Amiri-Bold.65fec5307565a3392baa.ttf",
+    "index.html": "/military/index.html",
+    "main.9b38101e.css.map": "/military/static/css/main.9b38101e.css.map",
+    "main.f3b772db.js.map": "/military/static/js/main.f3b772db.js.map",
+    "787.1dbcc60a.chunk.js.map": "/military/static/js/787.1dbcc60a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b38101e.css",
+    "static/js/main.f3b772db.js"
+  ]
+}
