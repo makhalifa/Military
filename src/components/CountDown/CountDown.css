@@ -1,0 +1,15 @@
+.article{
+  /* make background little dark and opacity */
+  background-color: rgba(255, 255, 255);
+
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
+  width: 300px;
+}
+  
+@media screen and (max-width: 480px) {
+  .article{
+    width: 290px;
+  }
+}

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Amiri';
+  src: url('./assets/fonts/Amiri-Regular.ttf');
+  
+}
+
+head{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Amiri', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #F8F9Fa;
+
+  /* background-image: url('https://as2.ftcdn.net/v2/jpg/02/67/53/73/1000_F_267537306_BMICX9vHW8dx7iPwDkc2PVxprIDQIdDJ.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
