@@ -19,11 +19,17 @@ class CountDownList extends Component {
     // check if the date is finished
     dates.forEach((date, index) => {
       const now = new Date();
+      const dateDate = new Date(date.date);
 
-      if (Date.parse(now) > Date.parse(date.date)) {
+      if (now > dateDate) {
         finished.push(date);
         dates.splice(index, 1);
       }
+
+      // if (Date.parse(now) > Date.parse(date.date)) {
+      //   finished.push(date);
+      //   dates.splice(index, 1);
+      // }
     });
 
     // sort dates by date starting with the closest date
@@ -48,7 +54,7 @@ class CountDownList extends Component {
         {this.state.finished.length > 0 && (
           <hr className="br1 b--white-90 w-80 mt3" />
         )}
-  
+
         {this.state.finished.map((date, index) => (
           <div key={index}>
             {/* <h2>{date.title}</h2> */}
