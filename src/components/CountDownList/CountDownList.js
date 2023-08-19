@@ -46,7 +46,7 @@ class CountDownList extends Component {
         ))}
 
         {this.state.finished.length > 0 && (
-          <hr className="br1 b--white-90 w-80 mt3 mb3" />
+          <hr className="br1 b--white-90 w-80 mt3" />
         )}
   
         {this.state.finished.map((date, index) => (

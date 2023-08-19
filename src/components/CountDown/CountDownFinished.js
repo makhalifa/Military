@@ -10,7 +10,7 @@ const CountDownFinished = ({date}) => {
   
   const arabicDate = new Date(date.date).toLocaleDateString('ar-EG', options);
   return (
-    <article className="article br2 ba dark-gray  b--black-10 w-75 br5 b--black center">
+    <article className="article br2 ba dark-gray  b--black-10 w-75 br5 b--black center mt3">
         {/* <h1 className="f3">{date.title}</h1> */}
         <p className="f6">{arabicDate}</p>
         {/* div contain one row img check mark in the right and p in the left */}
